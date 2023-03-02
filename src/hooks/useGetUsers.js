@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
  * @description A hook for getting user cards
  * @param {number} page
  * @returns {{IUsersResults}}
- */
+ * */
 export default function useGetUsers(page) {
   /**
    * Array of users
