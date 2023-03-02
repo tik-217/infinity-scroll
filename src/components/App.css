@@ -1,0 +1,13 @@
+.cards > div {
+  margin: 10px auto 15px;
+}
+
+.cards__spiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.ant-card {
+  background: aliceblue;
+}
