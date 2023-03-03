@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "start": "webpack-dev-server",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,13 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.1",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
     "mini-css-extract-plugin": "^2.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,7 +34,11 @@
   },
   "dependencies": {
     "antd": "^5.2.3",
-    "jsdoc": "^4.0.2"
+    "file-loader": "^6.2.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "jsdoc": "^4.0.2",
+    "source-map-loader": "^4.0.1"
   },
   "compilerOptions": {
     "jsx": "react",

@@ -1,4 +1,9 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  useCallback,
+} from "react";
 
 /** components */
 import useGetUsers from "../../hooks/useGetUsers";
@@ -84,7 +89,7 @@ export default function App() {
   }, [users]);
 
   return (
-    <>
+    <div>
       {loading && (
         <div className="cards__spiner">
           <LoadingOutlined
@@ -119,6 +124,6 @@ export default function App() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
