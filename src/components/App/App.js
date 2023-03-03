@@ -1,7 +1,7 @@
-import { React, useEffect, useState, useRef, useCallback } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 
 /** components */
-import useGetUsers from "../hooks/useGetUsers";
+import useGetUsers from "../../hooks/useGetUsers";
 
 /** antd - UI */
 import { Avatar, Card } from "antd";
